@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+
+.img{
+    width: 40%;
+    padding: 20px 10px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 12px rgb(187, 186, 238);
+    width:70%;
+    border-radius: 30px;
+    height: 500px;
+    margin: 200px auto;
+    gap: 30px;
+}
+
+.header h1{
+    font-size: 30px;
+    padding: 10px;
+}
+.header p{
+    font-size: 19px;
+    padding: 10px;
+}
+
+.head ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.email h1{
+    font-size: 20px;
+}
+
+.email input{
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 10px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 50%;
+    background-color: rgb(42, 37, 37);
+    color: white;
+}
